@@ -13,6 +13,7 @@ RUN apk update && \
             gcovr \
             py-setuptools \
             npm \
+            valgrind \
             && \
     npm install -g jscpd && \
     rm -rf ${HOME}/.cache && \
