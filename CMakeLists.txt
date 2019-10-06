@@ -14,6 +14,7 @@ cmake_host_system_information(
   QUERY NUMBER_OF_LOGICAL_CORES
 )
 
+hunter_add_package(GTest)
 hunter_add_package(
   Boost
   COMPONENTS
