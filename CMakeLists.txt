@@ -18,8 +18,8 @@ hunter_add_package(GTest)
 hunter_add_package(
   Boost
   COMPONENTS
-  # atomic
-  # chrono
+  atomic
+  chrono
   # context
   # contract
   # coroutine
@@ -32,18 +32,18 @@ hunter_add_package(
   # iostreams
   # locale
   log
-  # math
+  math
   # mpi
-  # program_options
+  program_options
   # python
-  # random
+  random
   regex
-  # serialization
+  serialization
   # signals
   # stacktrace
   system
   # test
-  # thread
+  thread
   # timer
   # wave
 )
