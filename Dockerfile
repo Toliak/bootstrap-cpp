@@ -17,6 +17,7 @@ RUN apk update && \
             py-setuptools \
             npm \
             valgrind \
+            perl \
             && \
     npm install -g jscpd && \
     mkdir -p /tmp/hunter-preload && \
