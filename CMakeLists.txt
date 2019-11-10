@@ -17,6 +17,8 @@ cmake_host_system_information(
 hunter_add_package(GTest)
 hunter_add_package(gumbo)
 hunter_add_package(OpenSSL)
+hunter_add_package(rocksdb)
+hunter_add_package(Async++)
 hunter_add_package(
   Boost
   COMPONENTS
